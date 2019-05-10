@@ -4,9 +4,9 @@ from email.mime.text import MIMEText
 import os
 
 def mail():
-    sender='lifeisnofair@163.com'
-    receive='bboysoulcn@gmail.com'
-    pwd='meiwenjie5917'
+    sender='mail@mail.com'
+    receive='mail@mail.com'
+    pwd=''
     smtp_host='smtp.163.com'
     msg=MIMEText('温度过高')
     msg['from']=sender
